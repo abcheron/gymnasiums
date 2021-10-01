@@ -1,0 +1,10 @@
+@import "../variable/variable";
+.comom_title{
+  h2{
+    font-size:22px;
+    color:#222;
+    font-weight:400;
+    font-family:$oswald;
+    text-transform:uppercase;
+  }
+}

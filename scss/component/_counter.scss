@@ -1,0 +1,44 @@
+@import "../variable/variable";
+#counter{
+  position:relative;
+  padding:45px 0;
+  &::before{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    content:"";
+    background: rgba(0, 0, 0, 0.90);
+  }
+  .count_single{
+    position:relative;
+    z-index:999;
+    text-align:center;
+    h1{
+      font-size:40px;
+      color:#ffff;
+      font-weight:700;
+      font-family:$oswald;
+    }
+    span{
+      font-size:16px;
+      color:#fff;
+      font-weight:400;
+      font-family:$oswald;
+    }
+  }
+}
+.btn_top{
+  width:30px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  background: $red;
+  font-size:20px;
+  color:#ffff;
+  position:fixed;
+  right:40px;
+  bottom:40px;
+
+}

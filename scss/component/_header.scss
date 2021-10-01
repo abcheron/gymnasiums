@@ -1,0 +1,82 @@
+@import "../variable/variable";
+
+.main_menu{
+  background: rgb(134, 124, 124);
+  height:50px;
+  line-height:50px;
+  margin-top:30px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
+  
+  ul{
+    li{
+      a{
+        font-size:14px;
+        color:#f1f1f1;
+        font-weight:400;
+        font-family:$oswald;
+        text-transforM:uppercase;
+        line-height:50px;
+        padding:0 11px !important;
+        position:relative;
+        &::before{
+          position:absolute;
+          bottom:0;
+          left:0;
+          width:0%;
+          height:2px;
+          content:"";
+          background:$red;
+          transition:all linear.3s;
+        }
+        &:hover{
+          background:#fff;
+          &::before{
+            width:100%;
+          }
+        }
+       
+      }
+    }
+  }
+  .navbar-brand{
+    width:250px;
+    height:70px;
+    text-align:center;
+    line-height:70px;
+    background:rgb(88, 71, 71);
+    transform:skew(-35deg);
+    position:relative;
+    &::before,
+    &::after{
+      position:absolute;
+      top:0;
+      height:100%;
+      width:3px;
+      content:"";
+      background: #030303;
+    }
+    &::before{right:0;}
+    &::after{left:0;}
+    img{
+      transform:skew(35deg);
+    }
+  }
+}
+.menu_nav{
+  position:fixed;
+  right:0;
+  top:0;
+  height:50px;
+ 
+}
+.main_menu ul li a.active{
+  background: #fff;
+  color:#222;
+}
+.main_menu ul li a.active ::before{
+  width:100%;
+}

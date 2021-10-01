@@ -1,0 +1,65 @@
+@import "../variable/variable";
+#membership{
+  padding:76px 0;
+  .membership_wrapper{
+    margin-top:30px;
+    .member_single{
+      background: #f1f1f1;
+      text-align:center;
+      &:hover{
+        h2{
+          background: $red;
+          color:#ffff;
+        }
+        h3{
+          background: $red;
+          color:#fff;
+        }
+      }
+      h2{
+        font-size:16px;
+        color:#222;
+        font-weight:400;
+        font-family:$oswald;
+        padding:20px 0;
+        text-transform:uppercase;
+        background: #ddd;
+        transition:all linear.3s;
+
+      }
+      ul{
+        padding:27px 0;
+        li{
+          font-size:14px;
+          color:#444;
+          font-weight:400;
+          font-family:$open;
+          padding:8px 0;
+        }
+      }
+      h3{
+        padding:10px 0;
+        background: #ddd;
+        font-size:16px;
+        color:#222;
+        font-weight:400;
+        font-family:$oswald;
+        text-transforM:uppercase;
+        transition:all linear .3s;
+      }
+      .member_bg{
+        padding:35px 0;
+        h1{
+        font-size:40px;
+        font-weight:500;
+        font-family:$oswald;
+        color:#fff;
+          span{
+            font-size:29px;
+
+          }
+        }
+      }
+    }
+  }
+}

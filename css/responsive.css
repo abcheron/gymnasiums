@@ -1,0 +1,758 @@
+
+
+
+@media (min-width:1400px){
+  #banner .banner_items .single-banner h2::before {
+    left: 20px;
+  }
+  #banner .banner_items .single-banner h2::after {
+    right: 20px;
+  }
+  #banner .banner_items .single-banner h1::before {
+    right: 20px;
+  }
+  #banner .banner_items .single-banner h1::after {
+    left: 20px;
+  }
+  #banner .banner_items .single-banner p::before {
+    left: 20px;
+  }
+  #banner .banner_items .single-banner p::after {
+   right: 20px;
+  }
+ 
+   /* ==============================
+          about part start
+  ================================ */
+  #about .about_text {
+    padding: 0 57px;
+  }
+   /* ==============================
+          about part start
+  ================================ */
+  #testimonial .testi-text {
+    margin-right: 90px;
+  }
+}
+@media (min-width:1200px) and (max-width:1399.98px){}
+
+@media (min-width:992px) and (max-width:1199.98px){
+  /* ==============================
+          banner part start
+  ================================ */
+  #banner .banner_items .single-banner h2::before {
+    width: 199px;
+  }
+  #banner .banner_items .single-banner h2::after {
+    width: 156px;
+  }
+  #banner .banner_items .single-banner p::before {
+    width: 87px;
+  }
+  #banner .banner_items .single-banner p::after {
+    width: 49px;
+  }
+  /* ==============================
+          banner part end
+  ================================ */
+  /* ==============================
+          about part start
+  ================================ */
+  #about .about_text {
+    padding: 0px; 
+    padding-top: 10px;
+  }
+  #about .about_text p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #about .about_text p span {
+    padding-top: 6px;
+  }
+  /* ==============================
+          about part end
+  ================================ */
+  /* ==============================
+          team part start
+  ================================ */
+  #team .team_wrapper .team_single .team_text {
+    padding: 19px 0px;
+  }
+  #team .team_wrapper .team_single .team_text p {
+    font-size: 12px;
+  }
+  /* ==============================
+          team part end
+  ================================ */
+  /* ==============================
+          class part start
+  ================================ */
+  #class_area .body_class ul li {
+    width: 19.58%;
+  }
+  /* ==============================
+          class part end
+  ================================ */
+  /* ==============================
+          footer part start
+  ================================ */
+  #footer .footer_wrapper .photo ul li {
+    width: 21.62%;
+  }
+  #footer .footer_wrapper .twitter .twitter_wrapper {
+    margin-bottom: 10px;
+  }
+  #footer .footer_wrapper .contact .contact_wrapper .contact_icons {
+    width: 7%;
+  }
+  #footer .footer_wrapper .contact .contact_wrapper .contact_text p {
+    font-size: 12px;
+  }
+  /* ==============================
+          footer part end
+  ================================ */
+  /* ==============================
+          header part start
+  ================================ */
+  /* ==============================
+          header part end
+  ================================ */
+}
+
+
+@media (min-width:768px) and (max-width:991.98px){
+/* ==============================
+          header part start
+================================ */
+.main_menu .navbar-brand {
+  width: 200px;
+  height: 65px;
+  line-height: 65px;
+}
+.main_menu ul li a {
+	font-size: 13px;
+	padding: 0 8px !important;
+}
+/* ==============================
+          header part end
+================================ */
+/* ==============================
+          banner part start
+================================ */
+#banner .banner_items .single-banner h2::before {
+	left: -14px;
+}
+#banner .banner_items .single-banner h2::after {
+	right: -14px;
+}
+#banner .banner_items .single-banner h1::before {
+	right: -14px;
+}
+#banner .banner_items .single-banner h1::after {
+	left: -14px;
+}
+#banner .banner_items .single-banner p::before {
+	left: -14px;
+}
+#banner .banner_items .single-banner p::after {
+	right: -14px;
+}
+/* ==============================
+          banner part end
+================================ */
+/* ==============================
+          member part start
+================================ */
+#membership .membership_wrapper .member_single h2 {
+	font-size: 14px;
+	padding: 14px 0;
+}#membership .membership_wrapper .member_single .member_bg h1 {
+	font-size: 30px;
+}
+#membership .membership_wrapper .member_single .member_bg {
+	padding: 27px 0;
+}
+#membership .membership_wrapper .member_single ul li {
+	font-size: 13px;
+	padding: 4px 0;
+}
+#membership .membership_wrapper .member_single ul {
+	padding: 20px 0;
+}
+#membership .membership_wrapper .member_single h3 {
+	padding: 6px 0;
+	font-size: 12px;
+}
+
+/* ==============================
+          member part end
+================================ */
+/* ==============================
+          class part start
+================================ */
+#class_area .class_menu {
+	margin-bottom: -22px;
+}
+#class_area .body_class ul li {
+	width: 19.42%;
+  padding: 30px 0;
+}
+#class_area .body_class ul li p {
+	font-size: 13px;
+}
+
+/* ==============================
+          class part end
+================================ */
+/* ==============================
+          footer part start
+================================ */
+#footer .footer_wrapper .contact .contact_wrapper .contact_icons {
+	width: 6%;
+}
+#footer .footer_wrapper .contact .contact_wrapper .contact_text {
+	width: 94%;
+}
+#footer .footer_wrapper .contact .contact_wrapper {
+	margin-bottom: 12px;
+}
+#footer .footer_wrapper .contact .socal_icon h4 {
+	margin-bottom: 34px;
+}
+#footer .footer_wrapper .twitter .twitter_wrapper .twitter_icon {
+	width: 8%;
+}
+#footer .footer_wrapper .twitter .twitter_wrapper .twitter_text {
+	width: 92%;
+}
+/* ==============================
+          footer part end
+================================ */
+/* ==============================
+          header part start
+================================ */
+/* ==============================
+          header part end
+================================ */
+  .main_menu .navbar-brand {
+    width: 200px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    background: #584747;
+    transform: skew(-35deg);
+    position: relative;
+  }
+}
+@media (min-width:576px) and (max-width:767.98px){
+
+    /* ==============================
+          header part start
+    ================================ */
+    .main_menu {
+      margin-top:0px; 
+      width:100%;
+    }
+    .main_menu .navbar-toggler:focus {
+      box-shadow: 0 0 0 0px;
+    }
+    .main_menu .navbar-brand {
+      width: 210px;
+      height: 50px;
+      line-height: 43px;
+    }
+    .main_menu button i{
+      color:#f1f1f1;
+    }
+    .main_menu .navbar-collapse{
+      background: #999;
+      text-align:center;
+    }
+    .main_menu ul li a {
+      font-size: 12px;
+      line-height: 35px;
+    }
+    .main_menu ul li{
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .main_menu ul li:last-child{
+      border-bottom:0;
+    }
+    /* ==============================
+          header part end
+    ================================ */
+    /* ==============================
+          banner part start
+    ================================ */
+    #banner .banner_items .single-banner h2::after ,
+    #banner .banner_items .single-banner h2::before ,
+    #banner .banner_items .single-banner h1::after ,
+    #banner .banner_items .single-banner h1::before ,
+    #banner .banner_items .single-banner p::after ,
+    #banner .banner_items .single-banner p::before{
+      display:none;
+     
+    }
+    #banner .banner_items {
+      padding: 200px 0 101px;
+    }
+    #banner .banner_items .single-banner h2 {
+      font-size: 25px;
+    }
+    #banner .banner_items .single-banner h1 {
+      font-size: 50px;
+    }
+    #banner .banner_items .single-banner p {
+      margin: 25px 0;
+    }
+    #banner .banner_items .single-banner a {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    #banner .slick-dots li button {
+      width: 15px;
+      height: 15px;
+      border: 1px solid red;
+    }
+    #banner .slick-dots li {
+      margin-right: 10px;
+    }
+  
+    /* ==============================
+          banner part end
+    ================================ */
+  
+    /* ==============================
+          about part start
+    ================================ */
+    #about {
+      padding-top: 55px;
+    }
+    #about .about_text {
+      padding: 15  0 0px;
+    }
+    #about .about_text p {
+      font-size: 12px;
+      line-height: 20px;
+      text-align: justify;
+    }
+    /* ==============================
+          about part end
+    ================================ */
+  
+    /* ==============================
+          gallery part start
+    ================================ */
+    #gallery {
+      padding-top: 55px;
+    }
+    #gallery .gallery_wrapper {
+      margin-top: 25px;
+    }
+    #gallery .gallery_wrapper .gallery_single .gal_img .overlay {
+      transform: scale(1);
+     
+    }
+    /* ==============================
+          gallery part end
+    ================================ */
+    /* ==============================
+          team part start
+    ================================ */
+    #team {
+      padding: 55px 0 0;
+    }
+    #team .team_wrapper {
+      margin-top: 25px;
+    }
+   
+    #team .team_wrapper .team_single .team_text p {
+      font-size: 12px;
+      transform: scale(1);
+    }
+    #team .team_wrapper .team_single .team_img .overlay {
+      transform: scale(1);
+    }
+    #team .team_wrapper .team_single .team_text {
+      padding: 19px 28px !important;
+      border: 1px solid #ddd;
+    }
+    /* ==============================
+          team part end
+    ================================ */
+    /* ==============================
+          testimonial part start
+    ================================ */
+    #testimonial .testimonial_wrapper {
+      margin-top: 18px;
+    }
+    #testimonial .testi-text p {
+      line-height: 16px;
+      font-weight: 400;
+      text-align: justify;
+    }
+    #testimonial .testimonial_active .slick-dots li button {
+      width: 15px;
+      height: 15px;
+    }
+    #testimonial .testimonial_active .slick-dots li {
+      margin-right: 10px;
+    }
+    /* ==============================
+          testimonial part end
+    ================================ */
+    /* ==============================
+          membership part start
+    ================================ */
+    #membership {
+      padding: 60px 0;
+    }
+    #membership .membership_wrapper {
+      margin-top: 18px;
+    }
+    #membership .membership_wrapper .member_single {
+      margin-bottom: 15px;
+    }
+    /* ==============================
+          membership part end
+    ================================ */
+    /* ==============================
+          counter part start
+    ================================ */
+    #counter .count_single h1 {
+      font-size: 17px;
+    }
+    #counter .count_single span {
+      font-size: 12px;
+    }
+    /* ==============================
+          counter part end
+    ================================ */
+    /* ==============================
+          class part start
+    ================================ */
+    #class_area {
+      margin-top: 60px;
+    }
+    #class_area .class_menu {
+      margin-top: 25px;
+    }
+    #class_area .class_menu li {
+      width: 33.33%;
+      background: #f1f1f1;
+      border-bottom: 2px solid #fff;
+    }
+    #class_area .body_class ul li {
+      width: 49.16%;
+      padding:18px 2px;
+    }
+    #class_area .body_class ul li p {
+      font-size: 12px;
+    }
+    #class_area .body_class ul li span {
+      display: block;
+      font-size: 14px;
+    }
+    
+  #class_area .body_class ul li:nth-child(2),
+  #class_area .body_class ul li:nth-child(4),
+  #class_area .body_class ul li:nth-child(6),
+  #class_area .body_class ul li:nth-child(8),
+  #class_area .body_class ul li:nth-child(10){
+    margin-right:0;
+  }
+    /* ==============================
+          class part end
+    ================================ */
+    /* ==============================
+          logo part start
+    ================================ */
+    #logo {
+      padding: 55px 0;
+    }
+    /* ==============================
+          logo part end
+    ================================ */
+    /* ==============================
+          footer part start
+    ================================ */
+    #footer .common_footer {
+      padding: 20px 0;
+    }
+    #footer .footer_wrapper .photo ul li {
+      width: 23.54%;
+    }
+    #footer .footer_wrapper .contact .contact_wrapper .contact_icons {
+      width: 4%;
+    }
+    #footer .footer_wrapper .contact .contact_wrapper .contact_text {
+      width: 96%;
+    }
+    #footer .footer_wrapper .twitter .twitter_wrapper .twitter_icon {
+      width: 6%;
+    }
+    #footer .footer_wrapper .twitter .twitter_wrapper .twitter_text {
+      width: 84%;
+    }
+    /* ==============================
+          footer part end
+    ================================ */
+}
+
+@media(max-width:575.98px){
+  /* ==============================
+        header part start
+  ================================ */
+  .main_menu {
+    margin-top:0px; 
+    width:100%;
+  }
+  .main_menu .navbar-toggler:focus {
+    box-shadow: 0 0 0 0px;
+  }
+  .main_menu .navbar-brand {
+    width: 210px;
+    height: 50px;
+    line-height: 43px;
+  }
+  .main_menu button i{
+    color:#f1f1f1;
+  }
+  .main_menu .navbar-collapse{
+    background: #999;
+    text-align:center;
+  }
+  .main_menu ul li a {
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .main_menu ul li{
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main_menu ul li:last-child{
+    border-bottom:0;
+  }
+  /* ==============================
+        header part end
+  ================================ */
+  /* ==============================
+        banner part start
+  ================================ */
+  #banner .banner_items .single-banner h2::after ,
+  #banner .banner_items .single-banner h2::before ,
+  #banner .banner_items .single-banner h1::after ,
+  #banner .banner_items .single-banner h1::before ,
+  #banner .banner_items .single-banner p::after ,
+  #banner .banner_items .single-banner p::before{
+    display:none;
+   
+  }
+  #banner .banner_items {
+    padding: 200px 0 101px;
+  }
+  #banner .banner_items .single-banner h2 {
+    font-size: 25px;
+  }
+  #banner .banner_items .single-banner h1 {
+    font-size: 50px;
+  }
+  #banner .banner_items .single-banner p {
+    margin: 25px 0;
+  }
+  #banner .banner_items .single-banner a {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #banner .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+  }
+  #banner .slick-dots li {
+    margin-right: 10px;
+  }
+
+  /* ==============================
+        banner part end
+  ================================ */
+
+  /* ==============================
+        about part start
+  ================================ */
+  #about {
+    padding-top: 45px;
+  }
+  #about .about_text {
+    padding: 10  0 0px;
+  }
+  #about .about_text p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  /* ==============================
+        about part end
+  ================================ */
+
+  /* ==============================
+        gallery part start
+  ================================ */
+  #gallery {
+    padding-top: 45px;
+  }
+  #gallery .gallery_wrapper {
+    margin-top: 20px;
+  }
+  #gallery .gallery_wrapper .gallery_single .gal_img .overlay {
+    transform: scale(1);
+   
+  }
+  /* ==============================
+        gallery part end
+  ================================ */
+  /* ==============================
+        team part start
+  ================================ */
+  #team {
+    padding: 45px 0 0;
+  }
+  #team .team_wrapper {
+    margin-top: 20px;
+  }
+  #team .team_wrapper .team_single .team_text {
+    padding: 19px 44px;
+    border: 1px solid #ddd;
+  }
+  #team .team_wrapper .team_single .team_text p {
+    transform: scale(1);
+  }
+  #team .team_wrapper .team_single .team_img .overlay {
+    transform: scale(1);
+  }
+  /* ==============================
+        team part end
+  ================================ */
+  /* ==============================
+        testimonial part start
+  ================================ */
+  #testimonial .testimonial_wrapper {
+    margin-top: 18px;
+  }
+  #testimonial .testi-text p {
+    line-height: 16px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  #testimonial .testimonial_active .slick-dots li button {
+    width: 15px;
+    height: 15px;
+  }
+  #testimonial .testimonial_active .slick-dots li {
+    margin-right: 10px;
+  }
+  /* ==============================
+        testimonial part end
+  ================================ */
+  /* ==============================
+        membership part start
+  ================================ */
+  #membership {
+    padding: 45px 0;
+  }
+  #membership .membership_wrapper {
+    margin-top: 18px;
+  }
+  #membership .membership_wrapper .member_single {
+    margin-bottom: 15px;
+  }
+  /* ==============================
+        membership part end
+  ================================ */
+  /* ==============================
+        counter part start
+  ================================ */
+  #counter .count_single h1 {
+    font-size: 17px;
+  }
+  #counter .count_single span {
+    font-size: 12px;
+  }
+  /* ==============================
+        counter part end
+  ================================ */
+  /* ==============================
+        class part start
+  ================================ */
+  #class_area {
+    margin-top: 45px;
+  }
+  #class_area .class_menu {
+    margin-top: 20px;
+  }
+  #class_area .class_menu li {
+    width: 33.33%;
+    background: #f1f1f1;
+    border-bottom: 2px solid #fff;
+  }
+  #class_area .body_class ul li {
+    width: 49.16%;
+    padding:18px 2px;
+  }
+  #class_area .body_class ul li p {
+    font-size: 12px;
+  }
+  #class_area .body_class ul li span {
+    display: block;
+    font-size: 14px;
+  }
+  
+#class_area .body_class ul li:nth-child(2),
+#class_area .body_class ul li:nth-child(4),
+#class_area .body_class ul li:nth-child(6),
+#class_area .body_class ul li:nth-child(8),
+#class_area .body_class ul li:nth-child(10){
+  margin-right:0;
+}
+  /* ==============================
+        class part end
+  ================================ */
+  /* ==============================
+        logo part start
+  ================================ */
+  #logo {
+    padding: 45px 0;
+  }
+  /* ==============================
+        logo part end
+  ================================ */
+  /* ==============================
+        footer part start
+  ================================ */
+  #footer .common_footer {
+    padding: 20px 0;
+  }
+  #footer .footer_wrapper .photo ul li {
+    width: 22.47%;
+  }
+  #footer .footer_wrapper .contact .contact_wrapper .contact_icons {
+    width: 4%;
+  }
+  #footer .footer_wrapper .contact .contact_wrapper .contact_text {
+    width: 96%;
+  }
+  #footer .footer_wrapper .twitter .twitter_wrapper .twitter_icon {
+    width: 6%;
+  }
+  #footer .footer_wrapper .twitter .twitter_wrapper .twitter_text {
+    width: 84%;
+  }
+  /* ==============================
+        footer part end
+  ================================ */
+
+}
+@media (min-width:400px) and (max-width:575.98px){
+  #footer .footer_wrapper .photo ul li {
+    width: 23.64%;
+  }
+}

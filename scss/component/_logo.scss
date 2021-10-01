@@ -1,0 +1,10 @@
+@import "../variable/variable";
+#logo{
+  padding:70px 0;
+  .logo_active .slick-slide{
+   margin:0 10px;
+  }
+  .logo_col{
+    width:20%;
+  }
+}

@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3eca2a30cc97e51dbcb3d910db2c96d4") format("truetype"),
+url("./flaticon.woff?3eca2a30cc97e51dbcb3d910db2c96d4") format("woff"),
+url("./flaticon.woff2?3eca2a30cc97e51dbcb3d910db2c96d4") format("woff2"),
+url("./flaticon.eot?3eca2a30cc97e51dbcb3d910db2c96d4#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3eca2a30cc97e51dbcb3d910db2c96d4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cafe": "\f101",
+    "bicycle": "\f102",
+    "art": "\f103",
+    "eating": "\f104",
+    "left-arrow": "\f105",
+    "facebook": "\f106",
+    "home": "\f107",
+    "buddhist-yoga-pose": "\f108",
+    "cycling": "\f109",
+    "boxing-fighter": "\f10a",
+    "man-lifting-weight": "\f10b",
+    "slim-body": "\f10c",
+    "hand-gesture": "\f10d",
+);
+
+.flaticon-cafe:before {
+    content: map-get($flaticon-map, "cafe");
+}
+.flaticon-bicycle:before {
+    content: map-get($flaticon-map, "bicycle");
+}
+.flaticon-art:before {
+    content: map-get($flaticon-map, "art");
+}
+.flaticon-eating:before {
+    content: map-get($flaticon-map, "eating");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-buddhist-yoga-pose:before {
+    content: map-get($flaticon-map, "buddhist-yoga-pose");
+}
+.flaticon-cycling:before {
+    content: map-get($flaticon-map, "cycling");
+}
+.flaticon-boxing-fighter:before {
+    content: map-get($flaticon-map, "boxing-fighter");
+}
+.flaticon-man-lifting-weight:before {
+    content: map-get($flaticon-map, "man-lifting-weight");
+}
+.flaticon-slim-body:before {
+    content: map-get($flaticon-map, "slim-body");
+}
+.flaticon-hand-gesture:before {
+    content: map-get($flaticon-map, "hand-gesture");
+}

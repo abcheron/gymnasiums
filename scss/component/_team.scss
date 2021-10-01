@@ -1,0 +1,97 @@
+@import "../variable/variable";
+#team{
+  .team_active{ 
+   .slick-slide{
+    margin: 0 12px;
+    }
+  }
+  padding:75px 0 0;
+  .team_wrapper{
+    margin-top:73px;
+    .team_single{
+      transition:all linear.3s;
+    
+      &:hover{
+        margin-top:-40px;
+        .team_img .overlay{
+          transform:scale(1);
+        }
+        .team_text p{
+          transform:scale(1);
+        }
+        .team_text{
+          border:1px solid #ddd;
+        }
+      }
+      .team_img{
+        position:relative;
+        .overlay{
+          position:absolute;
+          top:15px;
+          left:15px;
+          right:15px;
+          bottom:15px;
+         content:"";
+          background: rgba(222, 115, 98, 0.50);
+          border:5px solid #f1f1f1;
+          transform:scale(0);
+          transition:all linear.3s;
+          ul{
+            position:absolute;
+            top:50%;
+            right:10px;
+            transform:translatey(-50%);
+            li{
+              margin-bottom:10px;
+              a{
+                width:30px;
+                height:30px;
+                text-align:center;
+                border:2px solid #fff;
+                font-size:16px;
+                color:#fff;
+                transition:all linear.3s;
+                &:hover{
+                  color:#1da0f2;
+                  background: #fff;
+                  border-color:#fff;
+                }
+              }
+            }
+          }
+  
+        }
+      }
+      .team_text{
+        text-align:center;
+        padding:19px;
+        border:0px solid #ddd;
+        h3{
+          font-size:14px;
+          color:#222;
+          font-weight:400;
+          font-family:$oswald;
+          text-transform:uppercase;
+        }
+        h4{
+          font-size:14px;
+          color:#222;
+          font-weight:400;
+          font-family:$oswald;
+          padding:5px 0;
+          
+        }
+        p{
+          font-size:13px;
+          color:#444;
+          font-weight:400;
+          font-family:$open;
+          line-height:18px;
+          transform:scale(0);
+          transition:all linear .3s;
+        }
+      }
+    }
+  }
+ 
+}

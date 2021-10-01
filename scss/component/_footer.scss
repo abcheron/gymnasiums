@@ -1,0 +1,170 @@
+@import "../variable/variable";
+#footer{
+  .common_footer{
+    text-align:center;
+    padding:30px 0;
+  }
+  .footer_wrapper{
+    border-top:2px solid #ddd;
+    border-bottom:2px solid #ddd;
+    padding-bottom:16px;
+    .opening{
+      h3{
+        font-size:14px;
+        color:#fff;
+        font-weight:400;
+        font-family:$oswald;
+        text-transform:uppercase;
+        padding:30px 0;
+
+      }
+      .opening_right,
+      .opening_left{
+        ul{
+          li{
+            font-size:13px;
+            color:#ddd;
+            font-weight:400;
+            font-family:$open;
+          }
+        }
+      }
+    }
+
+    .twitter{
+      h3{
+        font-size:14px;
+        color:#fff;
+        font-weight:400;
+        font-family:$oswald;
+        text-transform:uppercase;
+        padding:30px 0;
+
+
+      }
+      .twitter_wrapper{
+        display:flex;
+        margin-bottom:10px;
+        .twitter_icon{
+        width:12%;
+        i{
+          font-size:20px;
+          color:#1da1f2;
+        }
+        }
+        .twitter_text{
+          width:88%;
+          p{
+            font-size:12px;
+            color:#ddd;
+            font-weight:400;
+            font-family:$open;
+            span{
+              display:block;
+            }
+
+          }
+        }
+      }
+    }
+    .photo{
+      h3{
+        font-size:14px;
+        color:#fff;
+        font-weight:400;
+        font-family:$oswald;
+        text-transform:uppercase;
+        padding:30px 0;
+      }
+      ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        li{
+          width: 22.19%;
+          margin-right:10px;
+          margin-bottom:10px;
+          &:nth-child(4),
+          &:nth-child(8),
+          &:nth-child(12){
+            margin-right:0;
+
+          }
+        }
+      }
+
+    }
+    .contact{
+      h3{
+        font-size:14px;
+        color:#fff;
+        font-weight:400;
+        font-family:$oswald;
+        text-transform:uppercase;
+        padding:30px 0;
+
+      }
+      .contact_wrapper{
+        display:flex;
+        flex-wrap:wrap;
+        
+        .contact_icons{
+        width:10%;
+        i{
+          font-size:13px;
+          color:$red;
+        }
+        }
+        .contact_text{
+          width:90%;
+          p{
+            font-size:13px;
+            color:#ddd;
+            font-weight:400;
+            font-family:$open;
+          }
+        }
+      }
+      .socal_icon{
+        h4{
+          font-size: 14px;
+          color: #fff;
+          font-weight: 400;
+          font-family: "Oswald",sans-serif;
+          text-transform: uppercase;
+          padding: 8px 0 11px;
+          margin-bottom: 7px;
+        }
+        span{
+          width:30px;
+          height:30px;
+          text-align:center;
+          border:2px solid #fff;
+          display:inline-block;
+          font-size:16px;
+          color:#ffff;
+          margin-right:8px;
+          transition:all linear .3s;
+          &:hover{
+            background: $red;
+            border-color:$red;
+          }
+        }
+      }
+    }
+  }
+  .footer_bottom{
+    text-align:center;
+    padding:20px 0;
+    p{
+      font-size:13px;
+      color:#ddd;
+      font-weight:400;
+      font-family:$open;
+      a{
+        color:$red;
+
+      }
+    }
+  }
+}
